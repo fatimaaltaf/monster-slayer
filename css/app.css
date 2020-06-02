@@ -7,6 +7,11 @@
     font-family: "Bungee", cursive;
 }
 
+.command-text {
+text-align: center;
+font-family: "Roboto", sans-serif;
+}
+
 .healthbar {
     width: 80%;
     height: 40px;
@@ -34,6 +39,7 @@
     list-style: none;
     font-weight: bold;
     text-transform: uppercase;
+    font-family: "Roboto", sans-serif
 }
 
 .log ul li {

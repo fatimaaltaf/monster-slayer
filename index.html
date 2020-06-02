@@ -13,8 +13,6 @@
   <section>
     <h1 class="text-center">MONSTER SLAYER</h1>
   </section>
-  <!-- <img src="knight.png" alt="Knight holding sword">
-  <img src="monster.png" alt="Monster with sharp teeth"> -->
     <section class="row">
         <div class="small-6 columns">
           <img class="icon" src="knight.png" alt="Knight holding sword">
@@ -48,10 +46,10 @@
     </section>
     <section class="row controls" v-else>
         <div class="small-12 columns">
-            <button id="attack" @click="attack">ATTACK</button>
-            <button id="special-attack" @click="specialAttack">SPECIAL ATTACK</button>
-            <button id="heal" @click="heal">HEAL</button>
-            <button id="give-up" @click="giveUp">GIVE UP</button>
+            <button class="command-text" id="attack" @click="attack">ATTACK</button>
+            <button class="command-text" id="special-attack" @click="specialAttack">SPECIAL ATTACK</button>
+            <button class="command-text" id="heal" @click="heal">HEAL</button>
+            <button class="command-text" id="give-up" @click="giveUp">GIVE UP</button>
         </div>
     </section>
     <section class="row log" 
